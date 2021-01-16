@@ -1,0 +1,60 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+
+#trp-floater-ls.trp-top-right {
+	left: 94% !important;
+	background: transparent !important;
+    margin-top: 0.51rem;
+    font-weight: bold;
+}
+
+#content-benefits-text {
+	padding: 4.2rem;
+}
+
+.wczpc_maindiv input.wczpcheck {
+    color: #000 !important;
+}
+
+@media (max-width: 768px) { 
+	#trp-floater-ls.trp-top-right {
+		left: 78% !important;
+		box-shadow: none;
+		font-size: 1.2rem;
+	}
+	
+	div#reviews_summary {
+		display: block !important;
+	}
+	div#reviews_summary h3 {
+		display: none;
+	}
+	div#reviews_summary .woocommerce-product-rating {
+		text-align: center;
+	}
+	div#reviews_summary .reviews_bar {
+		width: 100%;
+		text-align: center;
+	}
+	
+	a#most_recent_reviews {
+		text-align: center;
+		display: block !important;
+		margin-right: 0 !important;
+	}
+	
+	 
+	#content-benefits {
+		margin-top: -2.3rem;
+	}	
+	#content-benefits-text {
+		padding: 1rem;
+	}
+}

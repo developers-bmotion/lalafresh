@@ -1,0 +1,1457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YIT WooCommerce Advanced Reviews\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-29 15:58+0000\n"
+"PO-Revision-Date: 2018-10-29 15:59+0000\n"
+"Last-Translator: Yith devs <yith@k-print.si>\n"
+"Language-Team: Slovenščina\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3||n"
+"%100==4 ? 2 : 3;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../functions.php:89
+msgid ""
+"YITH WooCommerce Advanced Reviews is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCoomerce Advanced Reviews so omogočen, vendar ne deluje. Za "
+"delovanje potrebuje WooCommerce."
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:53
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1707
+msgid "Author"
+msgstr "Avtor"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:54
+msgid "Review"
+msgstr "Ocena"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:55
+msgid "Date"
+msgstr "Datum"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:56
+msgid "Rate"
+msgstr "Oceni"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:57
+#: ../templates/reports/class.ywar-review-report.php:136
+msgid "Product"
+msgstr "Izdelek"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:343
+#: ../includes/class.yith-advanced-reviews-list-table.php:442
+msgid "Restore"
+msgstr "Obnovi"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:344
+msgid "Move to bin"
+msgstr "Premakni v koš"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:346
+#: ../includes/class.yith-advanced-reviews-list-table.php:447
+msgid "Delete permanently"
+msgstr "Trajno izbriši"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:347
+msgid "Approve reviews"
+msgstr "Odobrite mnenja"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:348
+msgid "Unapprove reviews"
+msgstr "Ne odobrite menja"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:361
+msgid "All"
+msgstr "Vse"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:362
+#: ../includes/class.yith-advanced-reviews-list-table.php:444
+msgid "Bin"
+msgstr "Koš"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:363
+msgid "Not approved"
+msgstr "Ni odobreno"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:419
+msgid "[No Title]"
+msgstr "[Ni naslova]"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:427
+#, php-format
+msgctxt "a link from a reply that points to the parent review"
+msgid "In reply to %s"
+msgstr "V odgovor na %s"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:463
+#: ../templates/ywar-review.php:64
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Ocenjeno %d od 5"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:465
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1923
+#: ../templates/ywar-review.php:66
+msgid "out of 5"
+msgstr "od 5"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:484
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1372
+msgid "Edit"
+msgstr "Uredi"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:487
+msgid "View"
+msgstr "Poglej"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:503
+#: ../templates/ywar-review.php:40
+msgid "Anonymous"
+msgstr "Anonimno"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:514
+msgid "Y/m/d g:i:s a"
+msgstr "Y/m/d g:i:s a"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:521
+#, php-format
+msgid "%s ago"
+msgstr "%s nazaj"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:523
+msgid "Y/m/d"
+msgstr "L/m/d"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:560
+msgid "No reviews found."
+msgstr "Ni najdenih mnenj."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:495
+msgid "Add to featured"
+msgstr "Dodaj med izpostavljene"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:496
+msgid "Remove from featured"
+msgstr "Odstrani iz izpostavljenih"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:497
+msgid "Block replies"
+msgstr "Blokiraj odgovore"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:498
+msgid "Unblock replies"
+msgstr "Odblokiraj odgovore"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:555
+msgid "Inappropriate content"
+msgstr "Neprimerna vsebina"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:556
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:924
+msgid "Reply blocked"
+msgstr "Odgovor blokiran"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:557
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:923
+msgid "Featured"
+msgstr "Izpostavljeno"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:564
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:321
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:322
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:343
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:858
+#: ../templates/reports/class.ywar-review-report.php:137
+#: ../templates/ywar-product-reviews.php:42
+msgid "Reviews"
+msgstr "Mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:567
+msgid "By most commented"
+msgstr "Po najbolj komentiranih"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:573
+msgid "By average rate"
+msgstr "Po povprečni oceni"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:579
+msgid "By min rate"
+msgstr "Po minimalni oceni"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:585
+msgid "By max rate"
+msgstr "Po maksimalni oceni"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:800
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2100
+msgid "Impossible to filter by rate"
+msgstr "Nemogoče filtrirati po oceni"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:922
+msgid "Inappropriate"
+msgstr "Neprimerno"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:959
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:964
+msgid "Report for inappropriate content"
+msgstr "Prijavi neprimerno vsebino"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:980
+msgid "Select/Deselect this as a featured review"
+msgstr "Izberi / Ne izberi tega kot izpostavljeno mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:997
+msgid "Select/Deselect to block any reply of this review"
+msgstr "Izberi / Ne izberi preprečevanje odgovorov na to mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1225
+msgid "Flag as inappropriate content"
+msgstr "Označi kot neprimerno vsebino"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1283
+msgid "Reply to a previous review"
+msgstr "Odgovori na prejšnjo mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1284
+msgid "Reply"
+msgstr "Odgovori"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1348
+msgid "This review cannot receive replies"
+msgstr "To mnenje ne more sprejeti odgovorov"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1348
+msgid "Block reply"
+msgstr "Blokiraj odgovor"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1351
+msgid "This review cannot receive comments."
+msgstr "To mnenje ne more sprejeti komentarjev."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1354
+msgid "Allow replies"
+msgstr "Dovoli odgovore"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1354
+msgid "Allow reply"
+msgstr "Dovoli odgovor"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1368
+msgid "Edit to a previous review"
+msgstr "Spremeni prejšnjo mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1472
+msgid "Was this review helpful to you?"
+msgstr "Je bilo to mnenje koristno?"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1473
+msgid "This reviews is helpful"
+msgstr "To mnenje je bilo koristno"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1474
+msgid "This reviews is not helpful"
+msgstr "To mnenje ni bilo koristno"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1501
+msgid "Most recent reviews"
+msgstr "Zadnja mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1502
+msgid "Most helpful reviews"
+msgstr "Najkoristnejša mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1543
+#, php-format
+msgid "Reviews with %s star"
+msgid_plural "Reviews with %s stars"
+msgstr[0] "Ocene z %s zvezdico"
+msgstr[1] "Ocene z %s zvezdicami"
+msgstr[2] "Ocene z %s zvezdicami"
+msgstr[3] "Ocene z %s zvezdicami"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1574
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2157
+msgid "star"
+msgid_plural "stars"
+msgstr[0] "zvezdica"
+msgstr[1] "zvezdici"
+msgstr[2] "zvezdic"
+msgstr[3] "zvezdice"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1575
+#, php-format
+msgid "%d reviews with rating of %s %s (%s of %s)"
+msgstr "%d mnenj z oceno %s %s (%s od %s)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1577
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2163
+msgid "(Show unfiltered results)"
+msgstr "(Prikaži nefiltrirane rezultate)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1633
+msgctxt "The user tried to upload more files than allowed."
+msgid "Too many files selected!"
+msgstr "Izbranih je preveč datotek!"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1634
+msgctxt "The user tried to upload files with extension or size not allowed."
+msgid ""
+"One or more file was not accepted because do not match the expected "
+"requirements"
+msgstr "Ena ali več datotek ni bila sprejeta zaradi prevelike datoteke"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1635
+msgctxt "No attachment is selected"
+msgid "No Files Selected"
+msgstr "Ni izbrane datoteke"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1660
+msgid "Please, write a review"
+msgstr "Prosimo, dodajte mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1661
+msgid "Please, select a rating before submitting your review"
+msgstr "Prosimo, izberite oceno pred oddajanjem mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1662
+msgid "Edit review"
+msgstr "Uredi mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1663
+#: ../plugin-options/premium-options.php:113
+msgid "Reply to review"
+msgstr "Odgovori na mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1664
+#: ../templates/ywar-product-reviews.php:77
+msgid "Add a review"
+msgstr "Ocenite izdelek"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1958
+msgid "Thanks for your message, we will check the content of the review."
+msgstr "Hvala za vaše sporočilo, preverili bomo vsebino vašega mnenja."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2022
+#, php-format
+msgid "%s of %s people found this review helpful"
+msgstr "%s od %s obiskovalcem se zdi to mnenje koristno"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2069
+msgid "Product ID is not valid"
+msgstr "Identifikacija izdelka ni veljavna"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2077
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2197
+msgid "Product ID is in an invalid format"
+msgstr "Identifikacija izdelka je v nepravilnem formatu"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2160
+#, php-format
+msgid "%d reviews with rate of %d %s (%d of %d)"
+msgstr "%d mnenj z oceno od %d %s (%d od %d)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2492
+#: ../plugin-options/premium-options.php:67
+msgid ""
+"Only allow one review for a product. Require \"Only allow reviews from "
+"verified owners\" to be set to work properly"
+msgstr ""
+"Dovoli samo eno mnenje na izdelek. Potrebno je nastaviti \"Samo verificirani "
+"lastniki lahko podajo mnenje\" za delovanje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2521
+msgid ""
+"You can't add more than one review for this product. Would you like to edit "
+"the review you have already written?"
+msgstr ""
+"Za ta izdelek ne morete dodati več kot eno oceno. Želite urediti oceno, ki "
+"ste jo že napisali?"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2568
+msgid ""
+"Bots are not allowed to submit comments. If you are not a bot then please "
+"enable JavaScript in browser."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:28
+msgctxt "Privacy Policy Content"
+msgid "YITH Advanced Reviews for WooCommerce premium"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:77
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:195
+msgctxt "GDPR privacy"
+msgid "Yith Advanced Reviews"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:167
+msgctxt "GDPR privacy"
+msgid "Reviews"
+msgstr "Mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:243
+msgctxt "GDPR privacy"
+msgid "Anonymous"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:266
+#, php-format
+msgid "Review %d contains personal data but could not be anonymized."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:285
+msgid "Review title"
+msgstr "Pregled naslova"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:539
+msgid "Approve review"
+msgstr "Dovoli mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:539
+msgid "Approve"
+msgstr "Dovoli"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:541
+msgid "Unapprove review"
+msgstr "Ne dovoli mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:541
+msgid "Unapprove"
+msgstr "Ne dovoli"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:611
+#, php-format
+msgid "Rated %s out of 5 stars"
+msgstr "Ocenjeno %s od 5 zvezdic"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:621
+msgid " review"
+msgid_plural " reviews"
+msgstr[0] " ocena"
+msgstr[1] "oceni"
+msgstr[2] "ocene"
+msgstr[3] "ocen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:656
+msgid ""
+"YITH WooCommerce Advanced Reviews is available in an outstanding PREMIUM "
+"version with many new options, discover it now."
+msgstr ""
+"YITH WooCommerce Advanced Reviews je na voljo v neverjetni Polni verziji z "
+"mnogo dodatnimi funkcijami..."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:657
+msgid "Premium version"
+msgstr "Polna verzija"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:664
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:676
+msgid "YITH WooCommerce Advanced Reviews"
+msgstr "YITH WooCommerce Advanced Reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:665
+msgid ""
+"In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews options. "
+"From this menu you can access all settings of YITH plugins activated."
+msgstr ""
+"Na zavihku YIT Plugins najdete možnosti YITH WooCommerce Advanced Reviews. V "
+"tem meniju lahko dostopate do vseh nastavitev vtičnikov YITH."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:677
+msgid ""
+"From now on, you can find all YITH WooCommerce Advanced Reviews options in "
+"YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> "
+"Advanced Reviews, as in the previous version. Any time one of our plugins is "
+"updated, a new entry will be added to this menu."
+msgstr ""
+"Od zdaj naprej lahko najdete vse možnosti YITH WooCommerce Advanced Reviews "
+"v vtičniku YIT -> Advanced Reviews namesto WooCommerce -> Nastavitve -> "
+"Advanced Reviews, kot v prejšnji različici. Kadarkoli je posodobljen eden od "
+"naših vtičnikov, bo novemu vnosu dodan ta meni."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:713
+msgid "General"
+msgstr "Generalno"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:714
+msgid "Layout"
+msgstr "Postavitev"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:718
+msgid "Voting/Review settings"
+msgstr "Nastavitve Glasovanja/Mnenj"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:720
+msgid "Premium Version"
+msgstr "Polna verzija"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:726
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:727
+msgid "Advanced Reviews"
+msgstr "Napredna mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:785
+msgid "Too many files selected!"
+msgstr "Izbranih preveč datotek!"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:786
+msgid "No Files Selected"
+msgstr "Ni izbrane datoteke"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:856
+msgctxt "Post Type General Name"
+msgid "Reviews"
+msgstr "Mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:857
+msgctxt "Post Type Singular Name"
+msgid "Review"
+msgstr "Mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:859
+msgid "Parent Review"
+msgstr "Starševsko (nadrejeno) mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:860
+msgid "All reviews"
+msgstr "Vsa mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:861
+msgid "View review"
+msgstr "Poglejte mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:862
+msgid "Add New Review"
+msgstr "Dodajte novo mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:863
+msgid "Add New"
+msgstr "Dodajte novo"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:864
+msgid "Edit Review"
+msgstr "Spremenite mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:865
+msgid "Update Review"
+msgstr "Posodobite mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:866
+msgid "Search Review"
+msgstr "Iščite mnenje"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:867
+msgid "Not Found"
+msgstr "Ni najdeno"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:868
+msgid "Not found in bin"
+msgstr "Ni najdeno v smetnjaku"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:874
+msgid "YIT Product reviews"
+msgstr "YIT Mnenja izdelkov"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:875
+msgid "Advanced WooCommerce product reviews"
+msgstr "Mnenja izdelkov Napredni WooCommerce"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1446
+msgid "Your Rating"
+msgstr ""
+"Kako ste zadovoljni z izdelkom (5 zvezdic - odlično, 1 zvezdica - slabo)?"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1448
+msgid "Rate&hellip;"
+msgstr "Oceni..."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1449
+msgid "Perfect"
+msgstr "Odlično"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1450
+msgid "Good"
+msgstr "Dobro"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1451
+msgid "Average"
+msgstr "Povprečno"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1452
+msgid "Not that bad"
+msgstr "Zadovoljivo"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1453
+msgid "Very Poor"
+msgstr "Slabo"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1462
+msgid "Attachments"
+msgstr "Priloge"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1463
+msgid "Choose file(s)"
+msgstr "Izberite datoteko/e"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1468
+#, php-format
+msgid "Use one of the allowed file type: %s. "
+msgstr "Uporabite eno od dovoljenih datotek tipa: %s. "
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1472
+#, php-format
+msgid "The max size allowed is : %s MB."
+msgstr "Maksimalna dovoljena velikost: %s MB."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1559
+#, php-format
+msgid "Reviews (%d)"
+msgstr "Mnenja (%d)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1608
+msgid "Review information"
+msgstr "Informacija o mnenjih"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1669
+msgid "Rating"
+msgstr "Ocena"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1688
+msgid "Block review edit"
+msgstr "Blokiraj spreminjanje mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1694
+msgid "The review author is a registered user."
+msgstr "Avtor mnenja je registriran uporabnik."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1695
+msgid "User profile"
+msgstr "Profil uporabnika"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1698
+msgid "Use user data"
+msgstr "Uporabi podatke uporabnika"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1715
+msgid "Author email"
+msgstr "Email avtorja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1920
+#: ../templates/ywar-rating.php:25
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Ocenjeno %s od 5"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1943
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1949
+msgid "Convert reviews"
+msgstr "Pretvori mnenja"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1952
+msgid ""
+"If this is the first time you install the YITH Advanced Reviews plugin, or "
+"if you are using an older version prior to the 1.1.0, first you have to "
+"convert the older reviews if you want to use them."
+msgstr ""
+"Če je to prvič, ko nameščate vtičnik YITH Advanced Reviews ali če "
+"uporabljate starejšo različico pred 1.1.0, najprej pretvorite starejša "
+"mnenja, če jih želite uporabiti."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1959
+msgctxt "convert into reviews"
+msgid "CONVERTING COMMENTS INTO REVIEWS"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1962
+msgctxt "convert into reviews"
+msgid "comments checked"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1965
+msgctxt "convert into reviews"
+msgid "comments converted"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1992
+#, php-format
+msgid "Task completed. %d reviews have been processed and converted."
+msgstr "Naloga opravljena. %d mnenj je bilo procesiranih in sprovedenih."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1994
+msgid "Task completed. No review to convert has been found."
+msgstr "Naloga opravljena. Ni mnenja, ki bi ga lahko sprovedli."
+
+#: ../plugin-options/general-options.php:20
+msgid "General settings"
+msgstr "Generalne nastavitve"
+
+#: ../plugin-options/general-options.php:25
+msgid "Show title"
+msgstr "Prikaži naslov"
+
+#: ../plugin-options/general-options.php:27
+msgid "Add a title field in the reviews."
+msgstr "Dodajte polje za naslov mnenja"
+
+#: ../plugin-options/general-options.php:32
+msgid "Show attachments"
+msgstr "Prikažite priponke"
+
+#: ../plugin-options/general-options.php:34
+msgid "Add an attachment section in the reviews."
+msgstr "Dodajte sekcijo za priponko med mnenji"
+
+#: ../plugin-options/general-options.php:39
+msgid "Attachment type"
+msgstr "Vrsta priponke"
+
+#: ../plugin-options/general-options.php:41
+msgid "Set the file type allowed as the review attachment"
+msgstr "Določite vrsto datoteke, dovoljeno kot prilogo za pregled"
+
+#: ../plugin-options/general-options.php:47
+msgid "Multiple attachment limit"
+msgstr "Limita več priponk"
+
+#: ../plugin-options/general-options.php:49
+msgid ""
+"Set the maximum number of attachments that can be selected (0 = no limit)."
+msgstr "Nastavite maksimalno število izbranih priponk (0 = ni omejitve)"
+
+#: ../plugin-options/general-options.php:54
+msgid "Attachment max size"
+msgstr "Maksimalna velikost priponke"
+
+#: ../plugin-options/general-options.php:56
+msgid "Set the file max size allowed in MB. Set to 0 for no size limit."
+msgstr ""
+"Nastavite maksimalno dovoljeno velikost v MB. Nastavite 0 za izbiranje brez "
+"limite."
+
+#: ../plugin-options/general-options.php:66
+msgid "Review content selector"
+msgstr "Izbirnik vsebine mnenj"
+
+#: ../plugin-options/general-options.php:68
+msgid ""
+"Set the id or CSS class that matches the review tab content (default: #tab-"
+"reviews)."
+msgstr "Nastavi id ali CSS class, ki se ujema z vrednostjo v "
+
+#: ../plugin-options/general-options.php:74
+msgid "reCaptcha"
+msgstr ""
+
+#: ../plugin-options/general-options.php:76
+msgid "Enable reCaptcha on review submitting"
+msgstr ""
+
+#: ../plugin-options/general-options.php:81
+msgid "reCaptcha site key"
+msgstr ""
+
+#: ../plugin-options/general-options.php:83
+msgid "Insert your reCaptcha site key"
+msgstr ""
+
+#: ../plugin-options/general-options.php:89
+msgid "reCaptcha secret key"
+msgstr ""
+
+#: ../plugin-options/general-options.php:91
+msgid "Insert your reCaptcha secret key"
+msgstr ""
+
+#: ../plugin-options/general-options.php:96
+msgid "reCaptcha message error"
+msgstr ""
+
+#: ../plugin-options/general-options.php:98
+msgid ""
+"Insert your message error when the review is submitted without recaptcha"
+msgstr ""
+
+#: ../plugin-options/general-options.php:104
+msgid "Previous reviews"
+msgstr "Prejšnja mnenja"
+
+#: ../plugin-options/layout-options.php:21
+msgid "Layout options"
+msgstr "Možnosti postavitev"
+
+#: ../plugin-options/layout-options.php:27
+msgid "Fixed background bar color"
+msgstr "Privzeta barva ozadja vrstice"
+
+#: ../plugin-options/layout-options.php:34
+msgid "Percentage bar color"
+msgstr "Barva vrstice z odstotki"
+
+#: ../plugin-options/layout-options.php:41
+msgid "Show percentage value"
+msgstr "Prikaži vrednost v odstotkih"
+
+#: ../plugin-options/layout-options.php:43
+msgid "Show % value on percentage bars."
+msgstr "Prikaži % vrednost na vrstici z odstotki"
+
+#: ../plugin-options/layout-options.php:48
+msgid "Rating label color"
+msgstr "Barva ocenjevalne oznake"
+
+#: ../plugin-options/layout-options.php:55
+msgid "Percentage value color"
+msgstr "Barva vrednosti odstotkov"
+
+#: ../plugin-options/layout-options.php:62
+msgid "Rating count color"
+msgstr "Barva štetja ocen"
+
+#: ../plugin-options/premium-options.php:21
+msgid "Voting system"
+msgstr "Glasovalni sistem"
+
+#: ../plugin-options/premium-options.php:26
+msgid "Show vote section"
+msgstr "Prikaži sekcijo z glasovanji"
+
+#: ../plugin-options/premium-options.php:28
+msgid "Allow user to upvote or downvote a review."
+msgstr "Dovoli uporabniku pozitivno in negativno oceno mnenja"
+
+#: ../plugin-options/premium-options.php:34
+msgid "Show review votes"
+msgstr "Prikaži glasovanje mnenj"
+
+#: ../plugin-options/premium-options.php:36
+msgid "Add a string stating how many people found the review useful."
+msgstr "Dodaj niz z navajanjem števila uporabnih mnenj"
+
+#: ../plugin-options/premium-options.php:42
+msgid "Enable vote for all"
+msgstr "Omogoči glasovanje za vse"
+
+#: ../plugin-options/premium-options.php:44
+msgid "Allow unregistered users to vote the reviews."
+msgstr "Dovoli neregistriranim članom glasovanje za mnenja"
+
+#: ../plugin-options/premium-options.php:53
+msgid "Review settings"
+msgstr "Pregled nastavitev"
+
+#: ../plugin-options/premium-options.php:59
+msgid "Manual review approval"
+msgstr "Ročna odobritev mnenj"
+
+#: ../plugin-options/premium-options.php:61
+msgid ""
+"When a user submits a review, it should be manually approved to be showed"
+msgstr "Ko uporabnik potrdi mnenje, mora biti ročno odobreno za javni prikaz"
+
+#: ../plugin-options/premium-options.php:66
+msgid "Limit multiple reviews"
+msgstr "Omejitev večih mnenj"
+
+#: ../plugin-options/premium-options.php:73
+msgid "Edit reviews"
+msgstr "Popravite mnenja"
+
+#: ../plugin-options/premium-options.php:74
+msgid "Allow the users to edit their review"
+msgstr "Dovoli uporabnikom, da spreminjajo svoja mnenja"
+
+#: ../plugin-options/premium-options.php:80
+msgid "Number of reviews to display"
+msgstr "Prikazovanje števila mnenj"
+
+#: ../plugin-options/premium-options.php:82
+msgid "Limit the maximum number of reviews to display, 0 for unlimited"
+msgstr "Omejitev prikaza maksimalnega števila mnenj, 0 za neomejeno"
+
+#: ../plugin-options/premium-options.php:92
+msgid "\"Load more\""
+msgstr "\"Naloži več\""
+
+#: ../plugin-options/premium-options.php:94
+msgid ""
+"Choose if reviews should be shown grouped and which link style should be "
+"applied."
+msgstr ""
+"Izberite, če je treba prikazati mnenja v skupini in kateri slog uporabiti za "
+"povezave."
+
+#: ../plugin-options/premium-options.php:97
+msgid "Don't group reviews"
+msgstr "Ne združi mnenj"
+
+#: ../plugin-options/premium-options.php:98
+msgid "Group reviews and show a textual link on bottom"
+msgstr "Združi mnenja in prikaži besedilno povezavo na dnu"
+
+#: ../plugin-options/premium-options.php:99
+msgid "Group reviews and show a button link on bottom"
+msgstr "Združi mnenja in prikaži gumb s povezavo na dnu"
+
+#: ../plugin-options/premium-options.php:105
+msgid "Modal window"
+msgstr "modalno okno"
+
+#: ../plugin-options/premium-options.php:107
+msgid "Display reviews filtered by rate in a modal window."
+msgstr "Prikaži filtrirana mnenja po oceni v modalnem oknu"
+
+#: ../plugin-options/premium-options.php:115
+msgid "Choose who can reply to a review."
+msgstr "Izberite, kdo lahko odgovori na mnenja"
+
+#: ../plugin-options/premium-options.php:118
+msgid "No one can reply"
+msgstr "Nihče ne more odgovorjati"
+
+#: ../plugin-options/premium-options.php:119
+msgid "Only administrators can reply"
+msgstr "Samo administratorji lahko odgovorjajo"
+
+#: ../plugin-options/premium-options.php:120
+msgid "Everyone can reply"
+msgstr "Vsak lahko odgovori"
+
+#: ../plugin-options/premium-options.php:126
+msgid "Inappropriate reviews"
+msgstr "Neprimerna mnenja"
+
+#: ../plugin-options/premium-options.php:128
+msgid "Let users report a review as inappropriate content."
+msgstr "Dovoli uporabnikom, da prijavijo mnenje za neprimerno vsebino"
+
+#: ../plugin-options/premium-options.php:131
+msgid "Not enabled"
+msgstr "Neomogočeno"
+
+#: ../plugin-options/premium-options.php:132
+msgid "Only registered users can report an inappropriate content"
+msgstr "Samo registrirani uporabniki lahko prijavijo neprimerno vsebino"
+
+#: ../plugin-options/premium-options.php:133
+msgid "Everyone can report an inappropriate content"
+msgstr "Vsak lahko prijavi neprimerno vsebino"
+
+#: ../plugin-options/premium-options.php:139
+msgid "Hiding threshold"
+msgstr "Skrij prag"
+
+#: ../plugin-options/premium-options.php:141
+msgid ""
+"Hide temporarily a review when a specific number of users has flagged it as "
+"inappropriate. Set this value to 0 to never hide automatically the reviews."
+msgstr ""
+"Začasno skrij mnenje, ko ga določeno število uporabnikov označilo za "
+"neprimerno vsebino. Nastavi to vrednost na 0 za nastavitev: nikoli ne skrij "
+"mnenja"
+
+#: ../plugin-options/premium-options.php:151
+msgid "Featured reviews"
+msgstr "Izpostavljena mnenja"
+
+#: ../plugin-options/premium-options.php:153
+msgid ""
+"Number of reviews to show as featured items. Set this value to 0 to never "
+"show featured reviews."
+msgstr ""
+"Število mnenj za prikaz med izpostavljenimi artikli. Nastavite vrednost 0, "
+"če ne želite prikazati izpostavljenih mnenj."
+
+#: ../plugin-options/premium-options.php:163
+msgid "Enable Most Helpful Reviews tab by default"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:165
+msgid "Show Most Helpful Reviews tab selected by default."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:171
+msgid "\"Load more\" text"
+msgstr "\"Prikaži več\" tekst"
+
+#: ../plugin-options/premium-options.php:173
+msgid "Text to show in the textual link or button."
+msgstr "Prikazan tekst v povezavi ali gumbu"
+
+#: ../plugin-options/premium-options.php:176
+msgid "Load more"
+msgstr "Naloži več"
+
+#: ../templates/reports/class.ywar-review-report.php:43
+msgid "Export CSV"
+msgstr "Izvozi CSV"
+
+#: ../templates/reports/class.ywar-review-report.php:56
+msgid "Year"
+msgstr "Leto"
+
+#: ../templates/reports/class.ywar-review-report.php:57
+msgid "Last Month"
+msgstr "Zadnji mesec"
+
+#: ../templates/reports/class.ywar-review-report.php:58
+msgid "This Month"
+msgstr "Tekoči mesec"
+
+#: ../templates/reports/class.ywar-review-report.php:138
+msgid "Best rate"
+msgstr "Najboljša ocena"
+
+#: ../templates/reports/class.ywar-review-report.php:139
+msgid "Worst rate"
+msgstr "Najslabša ocena"
+
+#: ../templates/reports/class.ywar-review-report.php:140
+msgid "Average rate"
+msgstr "Povprečna ocena"
+
+#: ../templates/reports/class.ywar-review-report.php:162
+msgid "No reviews found in this period"
+msgstr "Ni mnenj za ta obdobje"
+
+#: ../templates/reports/ywar-html-review-report.php:23
+msgid "Custom:"
+msgstr "Po meri:"
+
+#: ../templates/reports/ywar-html-review-report.php:41
+msgid "Go"
+msgstr "Pojdi"
+
+#: ../templates/ywar-product-reviews-table.php:17
+msgid "Product reviews"
+msgstr "Mnenja o izdelku"
+
+#: ../templates/ywar-product-reviews-table.php:23
+msgid "Search reviews"
+msgstr "Išči mnenja"
+
+#: ../templates/ywar-product-reviews.php:40
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s ocene za %s"
+msgstr[1] "%s procenta od %s"
+msgstr[2] "%s procente od %s"
+msgstr[3] "%s procentov od %s"
+
+#: ../templates/ywar-product-reviews.php:60
+msgid "There are no reviews yet."
+msgstr "Ta izdelek še nima ocene."
+
+#: ../templates/ywar-product-reviews.php:77
+msgid "Be the first to review"
+msgstr "Bodite prvi in oddajte mnenje za"
+
+#: ../templates/ywar-product-reviews.php:78
+msgid "Write a reply"
+msgstr "Napišite mnenje"
+
+#: ../templates/ywar-product-reviews.php:82
+msgid "Name"
+msgstr "Ime"
+
+#: ../templates/ywar-product-reviews.php:84
+msgid "Email"
+msgstr "Email"
+
+#: ../templates/ywar-product-reviews.php:87
+msgid "Submit"
+msgstr "Oddaj mnenje"
+
+#: ../templates/ywar-product-reviews.php:92
+msgid "Your Review"
+msgstr "Vaše mnenje"
+
+#: ../templates/ywar-product-reviews.php:103
+msgid ""
+"Only logged in customers who have purchased this product may write a review."
+msgstr ""
+"Samo prijavljeni uporabniki, ki so kupili ta izdelek, lahko napišejo mnenje."
+
+#: ../templates/ywar-product-reviews.php:106
+msgid "Edit my reviews"
+msgstr "Uredi mnenja"
+
+#: ../templates/ywar-rating.php:27
+#, php-format
+msgid "out of %s5%s"
+msgstr "od %s5%s"
+
+#: ../templates/ywar-rating.php:28
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "na podlagi %s ocene stranke"
+msgstr[1] "na podlagi %s ocen stranke"
+msgstr[2] "na podlagi %s ocen stranke"
+msgstr[3] "na podlagi %s ocen stranke"
+
+#: ../templates/ywar-rating.php:33
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s mnenje kupca"
+msgstr[1] "%s mnenja kupcev"
+msgstr[2] "%s mnenj kupcev"
+msgstr[3] "%s mnenj kupcev"
+
+#: ../templates/ywar-review-bars.php:34
+#, php-format
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s zvezdica"
+msgstr[1] "%s zvezdici"
+msgstr[2] "%s zvezdice"
+msgstr[3] "%s zvezdic"
+
+#: ../templates/ywar-review.php:74
+msgid "Your comment is waiting for approval"
+msgstr "Vaš komentar čaka na odobritev"
+
+#: ../templates/ywar-review.php:85
+msgid "verified owner"
+msgstr "preverjen kupec"
+
+#: ../templates/ywar-single-product-reviews.php:15
+msgid "Customer reviews"
+msgstr "Mnenja kupcev"
+
+#: ../views/privacy/html-policy-content-collect_and_store.php:1
+msgctxt "Privacy Policy Content"
+msgid ""
+"While you visit our site, we collect information about you during the "
+"process of creating comments or reviews of products. We’ll track:"
+msgstr ""
+
+#: ../views/privacy/html-policy-content-collect_and_store.php:4
+msgctxt "Privacy Policy Content"
+msgid ""
+"Author name, author email, author IP, date, title, content and review url:  "
+"we’ll use this to create reviews of products"
+msgstr ""
+
+#: ../views/privacy/html-policy-content-has_access.php:1
+msgctxt "Privacy Policy Content"
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+
+#: ../views/privacy/html-policy-content-has_access.php:4
+msgctxt "Privacy Policy Content"
+msgid ""
+"Author name, author email, author IP, date, title and content of the reviews "
+"you have made"
+msgstr ""
+
+#~ msgid ""
+#~ "Choose to show a textual link or a button to load additionally reviews."
+#~ msgstr ""
+#~ "Decide whether to show a textual link or a button to load additional "
+#~ "reviews."
+
+#, fuzzy
+#~| msgid "This review cannot receive replies"
+#~ msgid "This review is closed for replies"
+#~ msgstr "To mnenje ne more sprejeti odgovorov"
+
+#, fuzzy
+#~| msgid "This review cannot receive comments."
+#~ msgid "This review is closed for comments"
+#~ msgstr "To mnenje ne more sprejeti komentarjev."
+
+#, fuzzy
+#~| msgid "Product ID is in an invalid format"
+#~ msgid "Product id is in invalid format"
+#~ msgstr "Identifikacija izdelka je v nepravilnem formatu"
+
+#, fuzzy
+#~| msgid "Voting/Review settings"
+#~ msgid "Voting/Reviews settings"
+#~ msgstr "Nastavitve Glasovanja/Mnenj"
+
+#, fuzzy
+#~| msgid ""
+#~| "In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews "
+#~| "options. From this menu you can access all settings of YITH plugins "
+#~| "activated."
+#~ msgid ""
+#~ "In the YIT Plugins tab you can find the YITH WooCommerce Advanced Reviews "
+#~ "options. With this menu, you can access to all the settings of our "
+#~ "plugins that you have activated."
+#~ msgstr ""
+#~ "Na zavihku YIT Plugins najdete možnosti YITH WooCommerce Advanced "
+#~ "Reviews. V tem meniju lahko dostopate do vseh nastavitev vtičnikov YITH."
+
+#, fuzzy
+#~| msgid ""
+#~| "From now on, you can find all YITH WooCommerce Advanced Reviews options "
+#~| "in YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> "
+#~| "Advanced Reviews, as in the previous version. Any time one of our "
+#~| "plugins is updated, a new entry will be added to this menu."
+#~ msgid ""
+#~ "From now on, you can find all the options of YITH WooCommerce Advanced "
+#~ "Reviews under YIT Plugin -> Advanced Reviews instead of WooCommerce -> "
+#~ "Settings -> Advanced Reviews, as in the previous version. When one of our "
+#~ "plugins updates, a new voice will be added to this menu."
+#~ msgstr ""
+#~ "Od zdaj naprej lahko najdete vse možnosti YITH WooCommerce Advanced "
+#~ "Reviews v vtičniku YIT -> Advanced Reviews namesto WooCommerce -> "
+#~ "Nastavitve -> Advanced Reviews, kot v prejšnji različici. Kadarkoli je "
+#~ "posodobljen eden od naših vtičnikov, bo novemu vnosu dodan ta meni."
+
+#~ msgid "The layout for this "
+#~ msgstr "Layout for this "
+
+#~ msgid ""
+#~ "The word used for the URL of each project (the slug of post if empty)"
+#~ msgstr ""
+#~ "Univocal identification name in the URL for each product (slug from post "
+#~ "if empty)"
+
+#~ msgid "Label Singular"
+#~ msgstr "Label in Singular"
+
+#~ msgid ""
+#~ "Set the label in singular to use for each label (the title of portfolio "
+#~ "if empty)"
+#~ msgstr "Set a label in singular (title of portfolio if empty)"
+
+#~ msgid "Label Plural"
+#~ msgstr "Label in Plural"
+
+#~ msgid ""
+#~ "Set the label in plural to use for each label (the title of portfolio if "
+#~ "empty)"
+#~ msgstr "Set a label in plural (title of portfolio if empty)"
+
+#~ msgid ""
+#~ "If you want to use a category section for the portfolio, set the name of "
+#~ "taxonomy. Name should be in slug form (must not contain capital letters "
+#~ "or spaces) and not more than 32 characters long (database structure "
+#~ "restriction)."
+#~ msgstr ""
+#~ "If you want to use categories in the portfolio, set a name for taxonomy. "
+#~ "Name should be a slug (must not contain capital letters nor spaces) and "
+#~ "must not be more than 32 characters long (database structure restriction)."
+
+#~ msgid "Set the word to use in the URL for each category page."
+#~ msgstr "Set the word for each category page URL."
+
+#~ msgid "The layout for single page of this portfolio"
+#~ msgstr "Layout for single page of this portfolio"
+
+#~ msgid "Show the frontend of the %s"
+#~ msgstr "Show frontend of the %s"
+
+#~ msgid ""
+#~ "The changes you made will be lost if you navigate away from this page."
+#~ msgstr "The changes you made will be lost if you leave this page."
+
+#~ msgid ""
+#~ "If you continue with this action, you will reset all options are in this "
+#~ "page."
+#~ msgstr ""
+#~ "If you go on with this action, you will reset all options in this page."
+
+#~ msgid ""
+#~ "The element you have written is already exists. Please, add another name."
+#~ msgstr "This element already exists. Please, enter a different name."
+
+#~ msgid "An error encoured during during import. Please try again."
+#~ msgstr "An error has occurred during import. Please try again."
+
+#~ msgid "The file you have insert doesn't valid."
+#~ msgstr "The file inserted is not valid."
+
+#~ msgid "I'm sorry, the import featured is disabled."
+#~ msgstr "Sorry, import is disabled."
+
+#~ msgid "Sorting done correctly."
+#~ msgstr "Sorting successful."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                     For every installation of our new "
+#~ "plugins, a new voice will be added to access to the customization "
+#~ "settings."
+#~ msgstr ""
+#~ "From now on, you can find all plugin options in YIT Plugin menu.\n"
+#~ "                                     For each plugin installed, "
+#~ "customization settings will be available as a new entry in YIT Plugin "
+#~ "menu."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                    When one of our plugins updates, a "
+#~ "new voice will be added to this menu.\n"
+#~ "                                    For example, after the update, the "
+#~ "options from the plugins (YITH WooCommerce Wishlist, YITH WooCommerce "
+#~ "Ajax Search, etc.)\n"
+#~ "                                    will be removed from the previous "
+#~ "location and moved under the YIT Plugin tab."
+#~ msgstr ""
+#~ "From now on, you can find all the options of your plugins in YIT Plugin "
+#~ "menu.\n"
+#~ "                                    Any time one of our plugins is "
+#~ "updated, a new entry will be added to this menu.\n"
+#~ "                                    For example, after update, plugin "
+#~ "options (such for YITH WooCommerce Wishlist, YITH WooCommerce Ajax "
+#~ "Search, etc.)\n"
+#~ "                                    will be moved from previous location "
+#~ "to YIT Plugin tab."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from the automatic updates.</em>"
+#~ msgstr ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from automatic updates.</em>"
+
+#~ msgid "%field% field can not be empty"
+#~ msgstr "%field% field cannot be empty"
+
+#~ msgid "%field_1% and %field_2% fields can not be empty"
+#~ msgstr "%field_1% and %field_2% fields cannot be empty"
+
+#~ msgid "Software has been deactive"
+#~ msgstr "Software has been deactivated"
+
+#~ msgid "Licence key has be banned"
+#~ msgstr "Licence key has been banned"
+
+#~ msgid "To Active"
+#~ msgstr "Activation"
+
+#~ msgid "Insert the title of field."
+#~ msgstr "Insert title for the field."
+
+#~ msgid ""
+#~ "REQUIRED: The identification name of this field, that you can insert into "
+#~ "body email configuration. <strong>Note:</strong>Use only lowercase "
+#~ "characters and underscores."
+#~ msgstr ""
+#~ "REQUIRED: Field identification name to be entered into email body. "
+#~ "<strong>Note:</strong>Use only lowercase characters and underscores."
+
+#~ msgid "Select the type of this field."
+#~ msgstr "Select type for this field."
+
+#~ msgid "Select this if it's the email where you can reply."
+#~ msgstr "Select this if it is the email you can reply to."
+
+#~ msgid ""
+#~ "Insert an additional class(es) (separateb by comma) for more "
+#~ "personalization."
+#~ msgstr ""
+#~ "Insert additional class(es) (separated by commas) for more "
+#~ "personalization."
+
+#~ msgid "Choose how much long will be the field."
+#~ msgstr "Set field length."
+
+#~ msgid "The content of the tab. (HTML is supported)"
+#~ msgstr "Content of the tab. (HTML is supported)"
+
+#~ msgid "Sidebar Left"
+#~ msgstr "Left sidebar"
+
+#~ msgid "Sidebar Right"
+#~ msgstr "Right sidebar"
+
+#, fuzzy
+#~| msgid "Add a title field in the reviews."
+#~ msgid "Add a title field on reviews."
+#~ msgstr "Dodajte polje za naslov mnenja"
+
+#, fuzzy
+#~| msgid ""
+#~| "Set the maximum number of attachments that can be selected (0 = no "
+#~| "limit)."
+#~ msgid "Set maximum number of attachments selectable (0 = no limit)."
+#~ msgstr "Nastavite maksimalno število izbranih priponk (0 = ni omejitve)"
+
+#, fuzzy
+#~| msgid "Review information"
+#~ msgid "Reviews summary options"
+#~ msgstr "Informacija o mnenjih"
+
+#, fuzzy
+#~| msgid "Fixed background bar color"
+#~ msgid "Fixed bars color"
+#~ msgstr "Privzeta barva ozadja vrstice"
+
+#, fuzzy
+#~| msgid "Percentage bar color"
+#~ msgid "Percentage bars color"
+#~ msgstr "Barva vrstice z odstotki"
+
+#, fuzzy
+#~| msgid "Show review votes"
+#~ msgid "Show people's votes"
+#~ msgstr "Prikaži glasovanje mnenj"
+
+#, fuzzy
+#~| msgid "Add a string stating how many people found the review useful."
+#~ msgid "Add a string stating how many people's found the review useful."
+#~ msgstr "Dodaj niz z navajanjem števila uporabnih mnenj"
+
+#, fuzzy
+#~| msgid "Review settings"
+#~ msgid "Reviews settings"
+#~ msgstr "Pregled nastavitev"
+
+#~ msgid "How many reviews to show"
+#~ msgstr "Number of reviews to display"
+
+#, fuzzy
+#~| msgid "Limit the maximum number of reviews to display, 0 for unlimited"
+#~ msgid "Limit how many reviews to show (0 for unlimited)."
+#~ msgstr "Omejitev prikaza maksimalnega števila mnenj, 0 za neomejeno"
+
+#, fuzzy
+#~| msgid "Display reviews filtered by rate in a modal window."
+#~ msgid "Show reviews filtered by users rating in a modal window."
+#~ msgstr "Prikaži filtrirana mnenja po oceni v modalnem oknu"
+
+#, fuzzy
+#~| msgid "\"Load more\" text"
+#~ msgid "Load more text"
+#~ msgstr "\"Prikaži več\" tekst"
+
+#, fuzzy
+#~| msgid "Text to show in the textual link or button."
+#~ msgid "Text to show inside textual link or button."
+#~ msgstr "Prikazan tekst v povezavi ali gumbu"
+
+#, fuzzy
+#~| msgctxt "Mnenja kupcev"
+#~| msgid "Customer reviews"
+#~ msgid "Customers reviews"
+#~ msgstr "Mnenja kupcev"
+
+#~ msgid "Settings"
+#~ msgstr "Nastavitve"
