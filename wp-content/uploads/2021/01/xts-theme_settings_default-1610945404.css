@@ -232,3 +232,7 @@ add_filter( 'woocommerce_product_review_list_args', 'woocommerce_product_review_
 	background-color: transparent !important;
 	border: 0px solid #c1c1c1 !important;
 }
+
+.woocommerce-mini-cart__empty-message .return-to-shop{
+	display:none
+}
